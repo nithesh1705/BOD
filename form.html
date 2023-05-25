@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        body{
+            margin-bottom: 0;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        .p{
+            text-align: center;
+            color: green;
+            font-size: 25px;
+        }
+        
+        .tag{
+            background-color:  #a60414;
+           
+            padding: 1px;
+          
+        }
+
+        .tag h2{
+            color: white;
+        }
+
+        input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button {
+  background-color: #a60414; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.button1 {
+  
+  
+  background-color: white; 
+    border: 1px solid #a60414;
+  color: black;
+}
+
+.button1:hover {
+    color: white; 
+  background-color: #a60414;
+}
+
+
+
+
+    </style>
+</head>
+<body>
+    <p class="p">Signup successful!</p>
+    <div class="tag">
+        <h2>Fill in the details</h2>
+    </div>
+
+    <div>
+        <form action="" >
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your last name.." required="">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required="">
+          
+
+          <label for="phoneno">Phone number</label>
+          <input type="number" id="phoneno" name="phoneno" placeholder="Enter number.." required="">
+        
+          <label for="date">Birth date</label>
+          <input type="date" id="date" name="date" style="font-size: large;" required="">
+
+          <form action="">
+            <p>Gender?</p>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Male</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Female</label><br>
+        </form>
+        
+        <label for="address">Address</label>
+          <input type="text" id="address" name="address" placeholder="Enter address.." required="">
+
+          <label for="weight">Weight</label>
+          <input type="number" id="weight" name="weight" placeholder="Enter weight.." required="">
+
+          <label for="pulse">Pulse</label>
+          <input type="number" id="pulse" name="pulse" placeholder="Enter pulse.." required="">
+
+          <label for="hb">Hemoglobin</label>
+          <input type="number" id="hb" name="hb" placeholder="Enter hb.." required="">
+
+          <label for="bp">Blood pressure</label>
+          <input type="number" id="bp" name="bp" placeholder="Enter bp.." required="">
+
+          <label for="temperature">Temperature</label>
+          <input type="number" id="temperature" name="temperature" placeholder="Enter temperature.." required="">
+
+          <form action="">
+            <p>Have you ever donated blood before?</p>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> yes</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> no</label><br>
+        </form>
+
+        <label for="lastdate">Last time you donated blood</label>
+        <input type="date" id="lastdate" name="lastdate" style="font-size: large;" required="">
+
+          <form action="">
+              <p>In last six months have you had any of the following:</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Tattooing</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Ear piercing</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Dental extraction</label><br><br>
+          </form>
+
+          <form action="">
+              <p>Do you suffer from or suffered from any of the following diseases?</p>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> Heart diseases</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Diabetes</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> STD</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Lung disease</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Epilepsy</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> TB</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Jaundice(last one year)</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Fainting spells</label><br><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Cancer or malignant disease</label><br><br>
+          </form>
+
+          <form action="">
+            <p>Are you taking or have taken any of these in the past 72 hours?</p>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Antibiotics</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Steroids</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Aspirin</label><br><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Vaccinations</label><br><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Alcohol</label><br><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Dog bite Rabies vaccine(1 year)</label><br><br>    
+          </label><br><br>
+
+          <form action="">
+            <p>Is there any history of surgery or blood transfusion in the past six months?</p>
+          <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+          <label for="vehicle1"> Major</label><br>
+          <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+          <label for="vehicle2"> Minor</label><br>
+          <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+          <label for="vehicle3"> Blood transfusion</label><br><br>
+        </form>
+          
+       
+
+          
+
+          <button class="button button1">SUBMIT</button>
+          
+        </form>
+      </div>
+</body>
+</html>

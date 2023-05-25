@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOD</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+    <header>
+        <img src="images/img2.png" alt="" height="65" width="65" class="logo">
+        <ul class="menu">
+            <li><span>About Us</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About BOD</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+            <li><span>Blood/Organ Availability</span>
+                <ul>
+                    <li><a href="bloodstock.html">Blood Availability</a></li>
+                    <li><a href="organstock.html">Organ Availability</a></li>
+                </ul>
+            </li>
+            <li><span>Donate Blood</span>
+               <ul>
+                  <li><a href="bloodcamps.html">Blood Donation Camps</a></li>
+                  <li><a href="dologin.html">Donor Login</a></li>
+              
+                </ul>
+           </li>
+            <li><span>Bloodbank Login</span>
+                <ul>
+                    <li><a href="bodlogin.html">BOD Login</a></li>
+                    <li><a href="addbb.html">Add your Bloodbank</a></li>
+                </ul>
+            </li>        
+        </ul>
+    </header>
+    
+    <center>
+        <fieldset class="abbform">
+            <form>
+                <h3 style="text-align: left;">Blood Bank Address</h3>
+                <div class="formbutton">
+                <label>State</label>
+                <input type="text" placeholder="Enter state">
+                <label>District </label>
+                <input type="text" placeholder="Enter district">
+                <label> City</label>
+                <input type="text" placeholder="Enter city">
+                </div>
+                <h3 style="text-align: left;">Blood Bank Details</h3>
+                <div class="formbutton">
+                <label>Blood Bank Name</label>
+                <input type="text">
+                <label>Parent Hospital Name</label>
+                <input type="text">
+                <label>Short Name</label>
+                <input type="text">
+                <label>Category</label>
+                <select><option>Select Type</option>
+                <option>Government</option>
+                <option>Red Cross</option>
+                <option>Charitable/Vol</option>
+                <option>Private</option>
+                </select>
+                <label>Contact Person</label>
+                <input type="text">
+                <label>Email</label>
+                <input type="email">
+                <label>Contact No.</label>
+                <input type="tel">
+                <label>Fax No.</label>
+                <input type="number">
+                <label>License No.</label>
+                <input type="number">
+                <label>From Date</label>
+                <input type="date">
+                <label>To Date</label>
+                <input type="date">
+                <label>Component Facility</label>
+                <select>
+                    <option>Select Value</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+                <label>Apheresis Facility</label>
+                <select>
+                    <option>Select Value</option>
+                    <option>Yes</option>
+                    <option>No</option>
+                </select>
+                <label>Helpline No.</label>
+                <input type="tel">
+                </div>
+                <h3 style="text-align: left;">Donor Type</h3>
+                <div class="formbutton">
+                <label>Voluntary</label> <input type="checkbox" id="" value="voluntary">
+                <label>Replacement</label> <input type="checkbox" id="" value="replacement">
+                <label>Directed</label> <input type="checkbox" id="" value="directed">
+                <label>Autologous</label> <input type="checkbox" id="" value="autologous">
+                <label>Family</label> <input type="checkbox" id="" value="family">
+                <label>Replacement External</label> <input type="checkbox" id="" value="replacementext">
+                </div>
+                <h3 style="text-align: left;">Donation Type</h3>
+                <div class="formbutton">
+                    <label>Leucaperesis</label> <input type="checkbox" id="" value="voluntary">
+                    <label>Plasmapheresis</label> <input type="checkbox" id="" value="replacement">
+                    <label>Plateletpheresis</label> <input type="checkbox" id="" value="directed">
+                </div>
+                <h3 style="text-align: left;">Component Type</h3>
+                <div class="formbutton">
+                <label>Cryo Poor Plasma</label> <input type="checkbox" id="" value="voluntary">
+                <label>Cryoprecipitate</label> <input type="checkbox" id="" value="replacement">
+                <label>Fresh Frozen Plasma</label> <input type="checkbox" id="" value="directed">
+                <label>Irradiated Rbc</label> <input type="checkbox" id="" value="autologous">
+                <label>Leukoreduced Rbc</label> <input type="checkbox" id="" value="family">
+                <label>Packed Red Blood Cells</label> <input type="checkbox" id="" value="replacementext">
+                <label>Plasma</label> <input type="checkbox" id="" value="voluntary">
+                <label>Platelet Concentrate</label> <input type="checkbox" id="" value="replacement">
+                <label>Platelet Poor Plasma</label> <input type="checkbox" id="" value="directed">
+                <label>Platelet Rich Plasma</label> <input type="checkbox" id="" value="autologous">
+                <label>Platelets additive solutions</label> <input type="checkbox" id="" value="family">
+                <label>Random Donor Platelets</label> <input type="checkbox" id="" value="replacementext">
+                <label>Sagm Packed Red Blood Cells</label> <input type="checkbox" id="" value="directed">
+                <label>Single Donor Plasma</label> <input type="checkbox" id="" value="autologous">
+                <label>Single Donor Platelet</label> <input type="checkbox" id="" value="family">
+                <label>Whole Blood</label> <input type="checkbox" id="" value="replacementext">
+                </div>
+                <h3 style="text-align: left;">Bag Type</h3>
+                <div class="formbutton">
+                <label>Single (350/450ml)</label> <input type="checkbox" id="" value="voluntary">
+                <label>Double (350/450ml)</label> <input type="checkbox" id="" value="replacement">
+                <label>Triple (350/450ml)</label> <input type="checkbox" id="" value="directed">
+                <label>Quadruple (450ml) with inline filter</label> <input type="checkbox" id="" value="autologous">
+                <label>Penta Bag (450 ml)</label> <input type="checkbox" id="" value="family">
+                <label>Transfer Bags</label> <input type="checkbox" id="" value="replacementext">
+                <label>Apheresis Kits</label> <input type="checkbox" id="" value="voluntary">
+                <label>Triple (350 MI) CPD/SAGM</label> <input type="checkbox" id="" value="replacement">
+                <label>Triple (450MI) CPD/SAGM</label> <input type="checkbox" id="" value="directed">
+                </div>
+                <h3 style="text-align: left;">TTI Type</h3>
+                <div class="formbutton">
+                <label>HIV 1&2</label> <input type="checkbox" id="" value="voluntary">
+                <label>Hepatitis-B</label> <input type="checkbox" id="" value="replacement">
+                <label>Hepatitis-C</label> <input type="checkbox" id="" value="directed">
+                <label>Syphilis</label> <input type="checkbox" id="" value="autologous">
+                <label>Malaria</label> <input type="checkbox" id="" value="">
+                </div>
+                <h3 style="text-align: left;">Remarks</h3>
+                <textarea></textarea>
+                <input type="submit">
+            </form>
+        </fieldset>
+    </center>
+
+    <footer>
+        <div class="footer_desc1">
+         <ul>
+           <li><b>About us</b></li>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About BOD</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="contact.html">Conatact us</a></li>
+         </ul>
+        </div>
+        <div class="footer_desc2">
+         <ul>
+           <li><b>Blood Organ Availability</b></li>
+           <li><a href="bloodstock.html">Blood Availability</a></li>
+           <li><a href="organstock.html">Organ Availability</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        <div class="footer_desc3">
+         <ul>
+           <li><b>Donate Blood</b></li>
+           <li><a href="bloodcamps.html">Blood donation camps</a></li>
+           <li><a href="dologin.html">Donor login</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        <div class="footer_desc4">
+         <ul>
+           <li><b>Bloodbank Login</b></li>
+           <li><a href="bodlogin.html">BOD login</a></li>
+           <li><a href="addbb.html">Add your blood bank</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        
+         <h5>@ Copyright BOD 2023. All Rights Reserved.</h5>
+       
+    </footer>
+    
+</body>
+</html>

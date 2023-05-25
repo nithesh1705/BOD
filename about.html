@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about</title>
+    <style>
+        body{
+            margin-bottom: 0;
+            width: 100%;
+            margin-left: 0;
+        }
+        h1{
+            color: #a60414;
+            padding-bottom: 10px;
+        }
+        .box{
+            background-color:  #a60414;
+            padding: 20px;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 30px;
+            color: white;
+            font-size: larger;
+        }
+
+        .box1{
+            background-color:  #F8F9F9;
+            color: black;
+            float: left;
+            padding: 100px;
+            padding-top: 10px;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .box2{
+            float: left;
+            background-color:  #F8F9F9;
+            padding: 100px;
+            padding-top: 10px;
+            border-radius: 10px;
+            margin-left: 20px;
+            margin-right: 20px;
+            color: black;
+        }
+        .row p{
+            text-align: center;
+            font-size: large;
+        }
+
+        .container{
+            align-items: center;
+            margin-left: 60px;
+        }
+        .box3{
+            margin: 0;
+            padding-bottom: 20px;
+        }
+        .box3 img{
+            margin: 0px 40px 0px 40px;
+        }
+        .box3 p{
+            margin-left: 960px;
+        }
+        .tab{
+            tab-size: 4;
+        }
+        .about{
+            padding:20px;
+            margin-left: 20px;
+        }
+
+        .logo{
+    margin: 0px 10px 0px 0px;
+    float: left;
+  }
+  .about li{
+      font-size: large;
+      margin-left: 20px;
+  }
+.img1{
+  margin: 0;
+}
+
+  header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:65px;
+    background-color: black;
+    font-family: sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu > li {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+li span {
+    height: 50px;
+    width: 100%;
+  
+    display: block;
+    background-color: black;
+    position: relative;
+    z-index: 100;
+    cursor:pointer;
+    padding-top: 10px;
+}
+ul.menu > li > a {
+    color: white;
+}
+li > ul {
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: left;
+    -webkit-transform:translateY(-200%);
+    -moz-transform:translateY(-200%);
+    transform:translateY(-100%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+}
+li > ul > li {
+    border: 1px solid black;
+    background-color: black;
+    border-top: none;
+    padding: 0 20px;   
+   
+}
+
+li:hover ul {
+    opacity: 1;
+    background-color: #a60414;
+    -webkit-transform:translateY(0px);
+    -moz-transform:translateY(0px);
+    transform:translateY(0px) -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+li>ul>li:hover {
+  background-color: #a60414;
+}
+        
+footer {
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+
+}
+.footer_desc1, .footer_desc2, .footer_desc3, .footer_desc4{
+  display:inline-block;
+  justify-content: center;
+  padding-left:30px;
+  padding-right: 30px;
+  margin: 10px;
+
+}
+
+.footer_desc1{
+  margin-left: 340px;
+}
+
+h5{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="" height="65" width="65" class="logo">
+        <ul class="menu">
+            <li><span>About Us</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About BOD</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+            <li><span>Blood/Organ Availability</span>
+                <ul>
+                    <li><a href="bloodstock.html">Blood Availability</a></li>
+                    <li><a href="organstock.html">Organ Availability</a></li>
+                </ul>
+            </li>
+            <li><span>Donate Blood</span>
+               <ul>
+                  <li><a href="bloodcamps.html">Blood Donation Camps</a></li>
+                  <li><a href="dologin.html">Donor Login</a></li>
+              
+                </ul>
+           </li>
+            <li><span>Bloodbank Login</span>
+                <ul>
+                    <li><a href="bodlogin.html">BOD Login</a></li>
+                    <li><a href="addbb.html">Add your Bloodbank</a></li>
+                </ul>
+            </li>        
+        </ul>
+    </header>
+    <br>
+    <br>
+    <br>
+    <h1>ABOUT BOD</h1><hr>
+    <div class="box">
+        <h2>BOD : BLOOD AND ORGAN DONATION MANAGEMENT SYSTEM</h2>
+    </div> 
+    <br>
+    <div class="row">
+        <p>
+            Vital procedures that enhance quality of life or save lives, such as blood transfusions and organ transplantation, 
+            rely on community goodwill to donate blood and organs. </p>
+            <p>There is a constant shortage in supply of these valuable resources, 
+            despite generally positive attitudes toward blood donation (BD) and organ donation (OD).
+        </p>
+    </div>
+    <br>
+
+<div class="container">
+ <div class="box1">
+        <h2>Objectivies</h2>
+      <ul style="list-style-type: disc;">
+        <li>Safe and Adequate Blood Supplies</li>
+        <li>Reduced Turnaround Time</li>
+        <li>Preventing Wastage of Blood</li>
+        <li>Restrict Professional Donors</li>
+        <li>Networking of Blood Banks</li>
+        <li>Donor Repository</li>
+     </ul>  
+ </div>
+     <div class="box2">
+        <h2>Salient Features</h2>
+      <ul style="list-style-type: disc;">
+        <li>Web Based Application</li>
+        <li>Aadhar Linkage</li>
+        <li>Helps to make decision Suppport</li>
+        <li>Enforces Guidelines</li>
+        <li>Educating the community</li>
+        <li>Statutory Reports</li>
+      </ul>  
+    </div>
+    
+     <div class="box3">
+       <a href="broucher.pdf" download="broucher.pdf"> <img src="images/broucher.jpeg" alt="#" height="280px" width="300px"><br>click here!</a>
+       <p>Click on the image to download the broucher</p>
+    </div>
+</div>
+<div class="about">
+    <h2><b>BOD has six major components for management of the blood donation life cycle:</b></h2>
+    <ul style="list-style-type: disc;">
+    <li>The bio metric Donor Management System for identifying, tracking and blocking donors based on donor's health, donation history etc.</li>
+    <li>It provides features such as blood grouping, TTI screening, antibody screening, component preparation etc. as per the defined processes and rules.</li>
+    <li>A centralized Blood Inventory Management System for keeping track of the blood stock across numerous blood banks.</li>
+    <li>Bio-Medical Waste Management System for disposal of discarded blood and other waste generated during this process.</li>
+    <li>Generation of rare blood group donor registries and the generation of regular repeat donors</li>
+    <li>Alert and Notification System</li>
+    </ul>
+</div>
+
+<footer>
+    <div class="footer_desc1">
+     <ul>
+       <li><b>About us</b></li>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="about.html">About BOD</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+       <li><a href="contact.html">Conatact us</a></li>
+     </ul>
+    </div>
+    <div class="footer_desc2">
+     <ul>
+       <li><b>Blood Organ Availability</b></li>
+       <li><a href="bloodstock.html">Blood Availability</a></li>
+       <li><a href="organstock.html">Organ Availability</a></li>
+       <br> <br>
+     </ul>
+    </div>
+    <div class="footer_desc3">
+     <ul>
+       <li><b>Donate Blood</b></li>
+       <li><a href="bloodcamps.html">Blood donation camps</a></li>
+       <li><a href="dologin.html">Donor login</a></li>
+       <br> <br>
+     </ul>
+    </div>
+    <div class="footer_desc4">
+     <ul>
+       <li><b>Bloodbank Login</b></li>
+       <li><a href="bodlogin.html">BOD login</a></li>
+       <li><a href="addbb.html">Add your blood bank</a></li>
+       <br> <br>
+     </ul>
+    </div>
+    
+     <h5>@ Copyright BOD 2023. All Rights Reserved.</h5>
+   
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blood donation camps</title>
+    <style>
+        body{
+            margin-bottom: 0;
+            width: 100%;
+            margin-left: 0;
+        }
+
+        
+        .tag{
+            background-color:  #a60414;
+            margin-top: 100px;
+            padding: 10px;
+            margin-bottom: 10px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .tag h2{
+            color: white;
+        }
+
+        .button {
+  background-color: #a60414; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  margin-left: 700px;
+  margin-top: 50px;
+}
+
+.button1 {
+  
+  
+  background-color: white; 
+    border: 1px solid #a60414;
+  color: black;
+}
+
+.button1:hover {
+    color: white; 
+  background-color: #a60414;
+}
+
+        select { width: 400px; text-align: center; }
+        select .lt { text-align: center;}
+
+        .logo{
+    margin: 0px 10px 0px 0px;
+    float: left;
+  }
+.img1{
+  margin: 0;
+}
+
+  header {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:65px;
+    background-color: black;
+    font-family: sans-serif;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul.menu > li {
+    float: left;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}
+li span {
+    height: 50px;
+    width: 100%;
+  
+    display: block;
+    background-color: black;
+    position: relative;
+    z-index: 100;
+    cursor:pointer;
+    padding-top: 10px;
+}
+ul.menu > li > a {
+    color: white;
+}
+li > ul {
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: left;
+    -webkit-transform:translateY(-200%);
+    -moz-transform:translateY(-200%);
+    transform:translateY(-100%);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+}
+li > ul > li {
+    border: 1px solid black;
+    background-color: black;
+    border-top: none;
+    padding: 0 20px;   
+   
+}
+
+li:hover ul {
+    opacity: 1;
+    background-color: #a60414;
+    -webkit-transform:translateY(0px);
+    -moz-transform:translateY(0px);
+    transform:translateY(0px) -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+   
+}
+
+li>ul>li:hover {
+  background-color: #a60414;
+}
+footer {
+  background-color: black;
+  color: white;
+  margin-bottom: 0;
+  margin-top: 163px;
+
+}
+.footer_desc1, .footer_desc2, .footer_desc3, .footer_desc4{
+  display:inline-block;
+  justify-content: center;
+  padding-left:30px;
+  padding-right: 30px;
+  margin: 10px;
+
+}
+
+.footer_desc1{
+  margin-left: 340px;
+}
+
+h5{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+#state, #distlist, #date{
+    width: 230px;
+    margin: 30px 60px;
+   padding: 8px ;
+   font-size:medium;
+}
+.search1{
+    margin-left: 700px;
+}
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/Logo.png" alt="" height="65" width="65" class="logo">
+        <ul class="menu">
+            <li><span>About Us</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About BOD</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </li>
+            <li><span>Blood/Organ Availability</span>
+                <ul>
+                    <li><a href="bloodstock.html">Blood Availability</a></li>
+                    <li><a href="organstock.html">Organ Availability</a></li>
+                </ul>
+            </li>
+            <li><span>Donate Blood</span>
+               <ul>
+                  <li><a href="bloodcamps.html">Blood Donation Camps</a></li>
+                  <li><a href="dologin.html">Donor Login</a></li>
+              
+                </ul>
+           </li>
+            <li><span>Bloodbank Login</span>
+                <ul>
+                    <li><a href="bodlogin.html">BOD Login</a></li>
+                    <li><a href="addbb.html">Add your Bloodbank</a></li>
+                </ul>
+            </li>        
+        </ul>
+    </header>
+<div class="tag">
+    <h2>Blood donation camps</h2>
+</div>
+  <div class="container">
+     
+       
+        <select id="state" name="statename" class="state"><option value="-1">Select State</option>
+                            <option value="-2">All</option>
+        <option value="33">Tamil Nadu</option>
+       </select>		 
+        
+    
+        <select id="distlist" name="distname" class="district"><option value="-1">Select District</option>
+        <option value="1">Ariyalur</option>
+        <option value="2">Chengalpattu</option>
+        <option value="3">Chennai</option>
+        <option value="4">Coimbatore</option>
+        <option value="5">Cuddalore</option>
+        <option value="6">Dharmapuri</option>
+        <option value="7">Dindigul</option>
+        <option value="8">Erode</option>
+        <option value="9">Kallakurichi</option>
+        <option value="10">Kancheepuram</option>
+        <option value="11">Karur</option>
+        <option value="12">Krishnagiri</option>
+        <option value="13">Madurai</option>
+        <option value="14">Mayiladuthurai</option>
+        <option value="15">Nagapattinam</option>
+        <option value="16">Kanniyakumari</option>
+        <option value="17">Namakkal</option>
+        <option value="18">Perambalur</option>
+        <option value="19">Pudukottai</option>
+        <option value="20">>Ramanathapuram</option>
+        <option value="21">Ranipet</option>
+        <option value="22">Salem</option>
+        <option value="23">Sivagangai</option>
+        <option value="24">Tenkasi</option>
+        <option value="25">Thanjavur</option>
+        <option value="26">Theni</option>
+        <option value="27">Thiruvallur</option>
+        <option value="28">Thiruvarur</option>
+        <option value="29">Thoothukudi</option>
+        <option value="30">Trichirappalli</option>
+        <option value="31">Thirunelveli</option>
+        <option value="32">Tirupathur</option>
+        <option value="33">Tiruppur</option>
+        <option value="34">Tiruvannamalai</option>
+        <option value="35">The Nilgiris</option>
+        <option value="36">Vellore</option>
+        <option value="37">Viluppuram</option>
+        <option value="38">Virudhunagar</option>
+        
+        </select>
+
+        <input type="date" id="date" name="date" style="font-size: large;">
+        
+    </div> 
+    
+    <button class="button button1">SEARCH</button>
+        
+    <footer>
+        <div class="footer_desc1">
+         <ul>
+           <li><b>About us</b></li>
+           <li><a href="index.html">Home</a></li>
+           <li><a href="about.html">About BOD</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+           <li><a href="contact.html">Conatact us</a></li>
+         </ul>
+        </div>
+        <div class="footer_desc2">
+         <ul>
+           <li><b>Blood Organ Availability</b></li>
+           <li><a href="bloodstock.html">Blood Availability</a></li>
+           <li><a href="organstock.html">Organ Availability</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        <div class="footer_desc3">
+         <ul>
+           <li><b>Donate Blood</b></li>
+           <li><a href="bloodcamps.html">Blood donation camps</a></li>
+           <li><a href="dologin.html">Donor login</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        <div class="footer_desc4">
+         <ul>
+           <li><b>Bloodbank Login</b></li>
+           <li><a href="bodlogin.html">BOD login</a></li>
+           <li><a href="addbb.html">Add your blood bank</a></li>
+           <br> <br>
+         </ul>
+        </div>
+        
+         <h5>@ Copyright BOD 2023. All Rights Reserved.</h5>
+       
+    </footer>   
+</body>
+</html>
